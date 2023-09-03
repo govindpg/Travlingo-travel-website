@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travlingo</title>
+
+  <link rel="icon" href="./media/compass-vector-black-white-logo-template_619470-366.png">
+  <!-- bootstrap connect -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+  <!-- css connect -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@300&family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,500;10..48,600&family=Inter&family=Kanit:ital,wght@0,300;1,300&family=Montserrat:wght@300;400&family=Open+Sans:wght@300&family=Oswald:wght@300;400;500;600&family=Pacifico&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto+Slab:wght@300;400;500&family=Roboto:ital,wght@0,300;0,400;1,400;1,500&family=Rubik:ital,wght@0,400;0,500;1,400&family=Teko:wght@300&display=swap"
+    rel="stylesheet">
+
+  <!-- fontawesonme -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-light py-4 ">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold ca" href="#">Travlingo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item ">
+            <a class="nav-link " aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Destination">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#packages">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="home">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./media/ian-lee-oujdnatSFAc-unsplash.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-center">
+            <h5 class="fs-2 fw-bold text-uppercase ca ">Australia</h5>
+            <p class="fs-4 ca ">Explore the hidden gems of australia</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="./media/vatra-voda-WVghytuytXocawq5qs-unsplash.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-center">
+            <h5 class="fs-2 fw-bold text-uppercase ca gk">India</h5>
+            <p class="fs-4 gk ca ">Explore the Unexplored India</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./media/willian-justen-de-vasconcellos-4hMET7vYTAQ-unsplash.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-center">
+            <h5 class="fs-1 fw-bold text-uppercase ca ">Peru</h5>
+            <p class="fs-4 ca ">Explore Peru</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- destiantion section -->
+  <section id="Destination" class="Destinations  ">
+    <div class="container mt-5 mb-5">
+      <h3 class="ds text-center">Popular Destinations</h3>
+      <p class="fs-5 text-center">Find the popular Tourist destinations around the world</p>
+
+      <!-- cards -->
+      <div class="row row-cols-1 row-cols-md-3 mt-5 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./media/vatra-voda-uCBiyY-7sPU-unsplash.jpg" class="card-img-top im " alt="...">
+            <div class="card-body">
+              <h5 class="card-title cr">Delhi-Jaipur</h5>
+              <p class="card-text cr">"Immerse yourself in the history and culture of Delhi and Jaipur with travlingo.Enjoy with saftey"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./media/stephen-leonardi--UWtb-3v6jQ-unsplash.jpg" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title cr">Paris</h5>
+              <p class="card-text cr">Experience the romance of Paris with our travel recommendations.Enjoy with saftey</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./media/darcey-beau-q8D7WZc40eA-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title cr">Dubai</h5>
+              <p class="card-text cr">Indulge in luxury in Dubai with our expert travel tips.Enjoy with saftey</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./media/levi-jones-kIR55P1eXJI-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title cr">Los Angeles</h5>
+              <Discover class="card-text cr">Discover the glitz and glamour of Los Angeles on our travlingo.Enjoy with saftey</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./media/hanson-lu-_8EFj6ISA08-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title cr">China</h5>
+              <p class="card-text cr">Experience the wonders of China with travlingo.Enjoy with saftey</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./media/nature-photographer-29ezCWtMtnM-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title cr">Kerala</h5>
+              <p class="card-text cr">Experience the lush green moutnains with Travelingo.Enjoy with saftey</p>
+            </div>
+
+          </div>
+        </div>
+  </section>
+
+  <!-- newsletter -->
+  <section class="news   ">
+    <div class="container  mt-1 mb-1  mx-auto">
+      <div class="row p-5">
+        <div class="col-lg-5 col-md-12">
+          <h5 class="m-4    fs-2">Subscribe to our newsletter</h5>
+        </div>
+        <div class="col-lg-5 col-md-12">
+          <div class="form-floating mt-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Email</label>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mt-4">
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- packages -->
+  <section id="packages" class=" mt-5  ">
+    <div class="container">
+      <h3 class="text-center ds">Popular packages</h3>
+      <p class="fs-5 text-center">Find out the most selling tour packages around the world</p>
+
+      <!-- cards2 -->
+
+      <div class="row g-4 mt-5 mx-auto">
+        <div class="col-lg-4 col-md-6 col-sm-12 ">
+          <div class="card h-100  mx-auto" style="width: 18rem;">
+            <img src="./media/sydney-opera-house-g5f04208c5_1920.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title ds">Sydeny - ₹ 50000</h5>
+              <p class="card-text ds">it contains a 5day/4 night trip which include all the major attractions in Sydeny
+              </p>
+              <a href="#" class="btn btn-primary">Book Tour</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 ">
+          <div class="card h-100   mx-auto" style="width: 18rem;">
+            <img src="./media/china.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title ds ">China - ₹ 40000</h5>
+              <p class="card-text ds ">Make up the backpack for an amazing experience. enjoy the unleashed
+                china(4day/5night)</p>
+              <a href="#" class="btn btn-primary ">Book Tour</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 ">
+          <div class="card h-100  mx-auto" style="width: 18rem;">
+            <img src="./media/greenland.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title ds">Greenland - ₹ 60000</h5>
+              <p class="card-text ds ">Discover the untouched beauty of Greenland's Arctic landscapes with our immersive
+                travel experiences.</p>
+              <a href="#" class="btn btn-primary">Book Tour</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- second col -->
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card h-100 mx-auto" style="width: 18rem;">
+            <img src="./media/jaipur.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title ds">jaipur - ₹ 20000</h5>
+              <p class="card-text ds">Explore Jaipur's rich history, vibrant culture, and stunning architecture.Enjoy
+                the raoyal city</p>
+              <a href="#" class="btn btn-primary">Book Tour</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 ">
+          <div class="card mx-auto h-100" style="width: 18rem;">
+            <img src="./media/hydrabad.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title ds">Hydrabad - ₹ 20000</h5>
+              <p class="card-text ds">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <a href="#" class="btn btn-primary">Book Tour</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12    ">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./media/munnar.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title ds">Munnar - ₹ 20000 </h5>
+              <p class="card-text ds">Munnar's idyllic charm beckons with emerald tea gardens and misty mountains.</p>
+              <a href="#" class="btn btn-primary">Book Tour</a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <!-- more text -->
+      <div class="more text-center mt-4">
+        <a href="#" class="btn btn-danger btn-lg bt1 " style="border-radius: 4 px ;">More Places</a>
+      </div>
+  </section>
+
+
+  <!-- gallery sections -->
+  <section id="gallery" class="gallery mt-4">
+    <div class="container">
+      <h3 class="text-center fs-2 ds">Gallery</h3>
+      <p class=" text-center fs-5"> Find out our stunning gallery</p>
+      <!-- gallery carousal  -->
+      <div id="carouselExampleSlidesOnly" class="carousel slide " data-interval="10" data-bs-ride="carousel">
+        <div class="carousel-inner  rounded-4">
+          <div class="carousel-item data-bs-interval='2'  active">
+            <img src="./media/jaipur.jpg" class="d-block  w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./media/levi-jones-kIR55P1eXJI-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./media/darcey-beau-q8D7WZc40eA-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./media/munnar.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./media/hanson-lu-_8EFj6ISA08-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./media/vatra-voda-WVghytuytXocawq5qs-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./media/greenland.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./media/china.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./media/stephen-leonardi--UWtb-3v6jQ-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- features -->
+  <section class="features  mt-5 p-5 ">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-lg-4 col-sm-12 text-center ">
+          <div class="image mb-4">
+            <img src="./media/bed-solid.svg" style="width: 100px; height: 50px;" alt="">
+          </div>
+          <span class="ds fs-4"><strong>Comfotable Journey</strong></span>
+          <p>Enjoy the Comfotable jouney with us</p>
+        </div>
+        <div class="col-lg-4 col-sm-12 text-center ">
+          <div class="image mb-4">
+            <img src="./media/plane-departure-solid.svg" style="width: 100px; height: 50px;" alt="">
+          </div>
+          <span class="ds fs-4"><strong>Hasslefree jourey</strong></span>
+          <p>Enjoy the hasslefree arrivlas and deprtures</p>
+        </div>
+        <div class="col-lg-4 col-sm-12 text-center ">
+          <div class="image mb-4">
+            <img src="./media/earth-americas-solid.svg" style="width: 100px; height: 50px;" alt="">
+          </div>
+          <span class="ds fs-4"><strong>Travel Guide</strong></span>
+          <p>Safe journey with our experienced guides</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about -->
+  <section id="about" class="about bg-dark">
+    <div class="conatiner-fluid">
+      <div class="row g1">
+        <h5 class="text-light mt-3 text-center fs-2 ca">Travelingo</h5>
+
+        <div class="col-lg-6 text-center col-sm-12   ">
+          <div class="row ">
+            <div class="col align-items-center mt-5 ">
+              <ul style="color: beige; text-align: left; margin-left: 100px; ">
+                <ul><i class="fa-regular fa-address-card mb-2" style="color: #ffffff;"></i><span class="ms-2">Seaport
+                    airport road
+                    kakkanad,68209</span></ul>
+                <ul><i class="fa-solid fa-envelope mb-2" style="color: #ffffff;"></i><span
+                    class="ms-2">travlingo@gmail.com</span></ul>
+                <ul><i class="fa-solid fa-phone mb-2" style="color: #ffffff;"></i><span class="ms-2">+91
+                    9447844848</span></ul>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 text-center">
+          <iframe class="w-75 h-100 rounded-1 p-2 "
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62865.558327205115!2d76.30948093051273!3d10.008813464703257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c8e94a07a07%3A0x49921cdfae82660!2sKakkanad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1693673311642!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <hr style="color: #ffffff; margin-bottom: 0px;">
+        <span class="cr mt-2 opacity-25 text-light text-center mb-2 " >© Travlingo/2023 </span>
+      </div>
+  </section>
+
+
+
+
+
+</body>
+
+</html>
