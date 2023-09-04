@@ -45,10 +45,10 @@ nav ul li{
     height: 200px;
     object-fit: cover;
 }
-.card{
+.rd{
     transition: .5s;
 }
-.card:hover{
+.rd:hover{
     transform: scale(1.1);
 }
 .news{
@@ -56,9 +56,12 @@ nav ul li{
 }
 .bt1{
     font-family: 'Pacifico', cursive;
+    border: 1px solid transparent;
 }
 .bt1:hover{
+    
     background-color:  rgb(32, 153, 113);
+     border: 1px solid #d0d0d0
 }
 .carousel{
     width: 100%;
@@ -68,8 +71,8 @@ nav ul li{
 .features{
     background-color: rgb(237, 237, 237);
 }
-
-/* * {
+/* 
+* {
     outline: 1px solid #f00 !important;
   } */
 
@@ -79,3 +82,19 @@ nav ul li{
         margin-right: 0px;
     
   }
+.r2{
+    margin-right: 0px;
+}
+
+.ab{
+    text-align: justify;
+}
+
+
+.c1{
+    transition: .5s
+}
+.c1:hover{
+    box-shadow: 0 5px 15px #4e7b8e;
+
+}
